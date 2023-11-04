@@ -5,13 +5,15 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import weclickkImage from '../images/646cec9623ba35bc3d313b86_Layer-1.webp';
+import wc2 from '../images/Screenshot 2023-11-04 at 4.33.00 PM.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
+		title: 'WeClickk App',
+		category: 'Mobile Application',
+		img: wc2,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -22,7 +24,7 @@ export const projectsData = [
 		id: 2,
 		title: 'Phoenix Digital Agency',
 		category: 'Mobile Application',
-		img: MobileImage2,
+		img: weclickkImage,
 	},
 	{
 		id: 3,
