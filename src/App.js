@@ -20,11 +20,10 @@ console.log(process.env.PUBLIC_URL)
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
-				<Router>
+				<Router basename={process.env.PUBLIC_URL}>
 					<ScrollToTop />
 					{/* <AppHeader /> */}
 					<Suspense fallback={""}>
-					<BrowserRouter basename={process.env.PUBLIC_URL}>
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
@@ -36,7 +35,6 @@ console.log(process.env.PUBLIC_URL)
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
 						</Routes>
-					</BrowserRouter>
 					</Suspense>
 					<AppFooter />
 				</Router>
