@@ -1,8 +1,10 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Nest.JS',
+	'WordPress',
+	'Shopify',
+	'Squarespace',
+	'Magento',
+	'Wix'
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

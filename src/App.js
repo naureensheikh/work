@@ -15,12 +15,13 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
 function App() {
+
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
 					<ScrollToTop />
-					<AppHeader />
+					{/* <AppHeader /> */}
 					<Suspense fallback={""}>
 						<Routes>
 							<Route path="/" element={<Home />} />

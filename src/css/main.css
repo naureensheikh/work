@@ -823,8 +823,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.625rem;
 }
 .py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1049,19 +1049,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:border-secondary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(16 45 68 / var(--tw-border-opacity));
+  border-color: rgb(160 154 154 / var(--tw-border-opacity));
 }
 .dark .dark\:border-primary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(13 36 56 / var(--tw-border-opacity));
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .dark .dark\:bg-primary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 36 56 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .dark .dark\:bg-ternary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 56 81 / var(--tw-bg-opacity));
+  background-color: rgb(139 69 18 / var(--tw-bg-opacity));
 }
 .dark .dark\:bg-gray-200 {
   --tw-bg-opacity: 1;

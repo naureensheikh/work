@@ -17,11 +17,6 @@ const ProjectsGrid = () => {
 
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
-			<div className="text-center">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
-				</p>
-			</div>
 
 			<div className="mt-10 sm:mt-16">
 				<h3
@@ -33,7 +28,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Search projects by title or filter by category
+					Projects portfolio
 				</h3>
 				<div
 					className="
@@ -98,7 +93,7 @@ const ProjectsGrid = () => {
 					? selectProjectsByCategory.map((project) => (
 							<ProjectSingle
 								title={project.title}
-								category={project.category}
+								category={project.title}
 								image={project.img}
 								key={project.id}
 							/>
@@ -107,7 +102,7 @@ const ProjectsGrid = () => {
 					? searchProjectsByTitle.map((project) => (
 							<ProjectSingle
 								title={project.title}
-								category={project.category}
+								category={project.title}
 								image={project.img}
 								key={project.id}
 							/>
@@ -116,6 +111,7 @@ const ProjectsGrid = () => {
 							<ProjectSingle
 								title={project.title}
 								category={project.category}
+								url={project.url}
 								image={project.img}
 								key={project.id}
 							/>

@@ -1,53 +1,100 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
-import weclickkImage from '../images/646cec9623ba35bc3d313b86_Layer-1.webp';
-import wc2 from '../images/Screenshot 2023-11-04 at 4.33.00 PM.png';
+import glamsevenImg from '../images/websites/glamseven.png';
+import weclickkImg from '../images/websites/weclickk.png';
+import nanotekImg from '../images/websites/nanotek.png';
+import browcodeImg from '../images/websites/browcode.png';
+import samuelsohnImg from '../images/websites/samuelsohn.png';
+import tableeffectImg from '../images/websites/tableeffect.png';
+import powerhousesupplementsImg from '../images/websites/powerhouse.png';
+import foundspaceImg from '../images/websites/foundspace.png';
+import passievoorslapenImg from '../images/websites/passievoorslapen.png';
+import tonygambinophotoImg from '../images/websites/tonygambiano.png';
+import ontapgroupImg from '../images/websites/ontapgroup.png';
+import amandajennyImg from '../images/websites/amandajenny.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'WeClickk App',
-		category: 'Mobile Application',
-		img: wc2,
-		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
-		},
+		title: 'Glam Seven',
+		category: 'Nest.JS',
+		url: 'https://www.glamseven.com',
+		img: glamsevenImg,
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: weclickkImage,
+		title: 'WeClickk App',
+		category: 'Nest.JS',
+		url: 'https://www.weclickk.com',
+		img: weclickkImg,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
+		title: 'Nanotek',
+		category: 'Laravel',
+		url: 'https://www.nanotek.lk',
+		img: nanotekImg,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
+		title: 'Browcode',
+		category: 'Shopify',
+		url: 'https://browcodepro.au',
+		img: browcodeImg,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
+		title: 'Samuel Sohn',
+		category: 'Shopify',
+		url: 'https://samuelsohn.com',
+		img: samuelsohnImg,
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
+		title: 'Table Effect',
+		category: 'Shopify',
+		url: 'https://www.tableeffect.com',
+		img: tableeffectImg,
+	},
+	{
+		id: 7,
+		title: 'Powerhouse Supplements',
+		category: 'WordPress',
+		url: 'https://www.powerhousesupplements.com.au',
+		img: powerhousesupplementsImg,
+	},
+	{
+		id: 8,
+		title: 'Foundspace',
+		category: 'WordPress',
+		url: 'https://foundspace.com.au',
+		img: foundspaceImg,
+	},
+	{
+		id: 9,
+		title: 'Passie voor slapen',
+		category: 'WordPress',
+		url: 'https://www.passievoorslapen.nl',
+		img: passievoorslapenImg,
+	},
+	{
+		id: 10,
+		title: 'Tony gambino',
+		category: 'Squarespace',
+		url: 'https://tonygambinophoto.com',
+		img: tonygambinophotoImg,
+	},
+	{
+		id: 11,
+		title: 'Ontap group',
+		category: 'Magento',
+		url: 'https://www.ontapgroup.com',
+		img: ontapgroupImg,
+	},
+	{
+		id: 12,
+		title: 'Amanda Jenny',
+		category: 'Wix',
+		url: 'https://www.amandajenny.com',
+		img: amandajennyImg,
 	},
 ];
