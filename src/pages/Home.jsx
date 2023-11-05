@@ -6,7 +6,7 @@ const Home = () => {
 	console.log('naureen')
 	console.log(AppBanner)
 	return (
-		<div className="container mx-auto nnnnnnn">
+		<div className="container mx-auto">
 			<AppBanner></AppBanner>
 
 			<ProjectsProvider>

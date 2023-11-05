@@ -15,7 +15,8 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
 function App() {
-
+console.log('meooo')
+console.log(process.env.PUBLIC_URL)
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
@@ -23,8 +24,9 @@ function App() {
 					<ScrollToTop />
 					{/* <AppHeader /> */}
 					<Suspense fallback={""}>
+					<BrowserRouter basename={process.env.PUBLIC_URL}>
 						<Routes>
-							<Route path="https://naureensheikh.github.io/work" element={<Home />} />
+							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
 								path="projects/single-project"
@@ -34,6 +36,7 @@ function App() {
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
 						</Routes>
+					</BrowserRouter>
 					</Suspense>
 					<AppFooter />
 				</Router>
