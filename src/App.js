@@ -5,7 +5,6 @@ import ScrollToTop from './components/ScrollToTop';
 import AppFooter from './components/shared/AppFooter';
 import Home from './pages/Home';
 import UseScrollToTop from './hooks/useScrollToTop';
-import './css/App.css';
 
 const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
@@ -15,8 +14,6 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
 function App() {
-console.log('meooo')
-console.log(process.env.PUBLIC_URL)
 	return (
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
