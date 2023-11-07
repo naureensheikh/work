@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/work/static/css/main.c71f1fd4.chunk.css",
-    "main.js": "/work/static/js/main.6fff8324.chunk.js",
-    "main.js.map": "/work/static/js/main.6fff8324.chunk.js.map",
+    "main.js": "/work/static/js/main.b5284f60.chunk.js",
+    "main.js.map": "/work/static/js/main.b5284f60.chunk.js.map",
     "runtime-main.js": "/work/static/js/runtime-main.65cc7d99.js",
     "runtime-main.js.map": "/work/static/js/runtime-main.65cc7d99.js.map",
     "static/js/2.d22830c3.chunk.js": "/work/static/js/2.d22830c3.chunk.js",
@@ -20,29 +20,41 @@
     "static/js/2.d22830c3.chunk.js.LICENSE.txt": "/work/static/js/2.d22830c3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/work/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
     "static/media/amandajenny.a0d3ed02.png": "/work/static/media/amandajenny.a0d3ed02.png",
+    "static/media/americanconstritura.ade5545a.png": "/work/static/media/americanconstritura.ade5545a.png",
+    "static/media/archipro.bec8a61c.png": "/work/static/media/archipro.bec8a61c.png",
+    "static/media/basinstreet.0d0a8a3a.png": "/work/static/media/basinstreet.0d0a8a3a.png",
     "static/media/browcode.39715fea.png": "/work/static/media/browcode.39715fea.png",
     "static/media/developer.865416cd.png": "/work/static/media/developer.865416cd.png",
+    "static/media/everylifefoundation.081a348d.png": "/work/static/media/everylifefoundation.081a348d.png",
     "static/media/foundspace.4b985d3f.png": "/work/static/media/foundspace.4b985d3f.png",
+    "static/media/georgiasteven.ff4dbe6d.png": "/work/static/media/georgiasteven.ff4dbe6d.png",
     "static/media/glamseven.675fcc2d.png": "/work/static/media/glamseven.675fcc2d.png",
+    "static/media/miamimodernhouse.cf7e854d.png": "/work/static/media/miamimodernhouse.cf7e854d.png",
     "static/media/mobile-project-1.0aa0cb76.jpg": "/work/static/media/mobile-project-1.0aa0cb76.jpg",
     "static/media/mobile-project-2.a5aae786.jpg": "/work/static/media/mobile-project-2.a5aae786.jpg",
+    "static/media/mtdigital.71c257fb.png": "/work/static/media/mtdigital.71c257fb.png",
     "static/media/nanotek.20545c44.png": "/work/static/media/nanotek.20545c44.png",
+    "static/media/odmconstruction.621a6330.png": "/work/static/media/odmconstruction.621a6330.png",
     "static/media/ontapgroup.f328bb24.png": "/work/static/media/ontapgroup.f328bb24.png",
     "static/media/passievoorslapen.3f88cb39.png": "/work/static/media/passievoorslapen.3f88cb39.png",
     "static/media/powerhouse.180586ea.png": "/work/static/media/powerhouse.180586ea.png",
     "static/media/samuelsohn.b0737d21.png": "/work/static/media/samuelsohn.b0737d21.png",
+    "static/media/solamer.7c33ae13.png": "/work/static/media/solamer.7c33ae13.png",
     "static/media/tableeffect.fa62911a.png": "/work/static/media/tableeffect.fa62911a.png",
+    "static/media/thebiospps.f57d0fe9.png": "/work/static/media/thebiospps.f57d0fe9.png",
     "static/media/tonygambiano.a183774c.png": "/work/static/media/tonygambiano.a183774c.png",
     "static/media/ui-project-1.41def4d8.jpg": "/work/static/media/ui-project-1.41def4d8.jpg",
     "static/media/ui-project-2.d2891914.jpg": "/work/static/media/ui-project-2.d2891914.jpg",
+    "static/media/weareamma.085f7e5f.png": "/work/static/media/weareamma.085f7e5f.png",
     "static/media/web-project-1.dbc2198e.jpg": "/work/static/media/web-project-1.dbc2198e.jpg",
     "static/media/web-project-2.f0108702.jpg": "/work/static/media/web-project-2.f0108702.jpg",
-    "static/media/weclickk.44f1b3de.png": "/work/static/media/weclickk.44f1b3de.png"
+    "static/media/weclickk.44f1b3de.png": "/work/static/media/weclickk.44f1b3de.png",
+    "static/media/wylerahair.c42c368e.png": "/work/static/media/wylerahair.c42c368e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.65cc7d99.js",
     "static/js/2.d22830c3.chunk.js",
     "static/css/main.c71f1fd4.chunk.css",
-    "static/js/main.6fff8324.chunk.js"
+    "static/js/main.b5284f60.chunk.js"
   ]
 }
