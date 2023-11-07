@@ -98,7 +98,7 @@ export const projectsData = [
 	{
 		id: 11,
 		title: 'Powerhouse Supplements',
-		category: 'WordPress',
+		category: 'Shopify',
 		url: 'https://www.powerhousesupplements.com.au',
 		img: powerhousesupplementsImg,
 	},
